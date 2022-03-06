@@ -5,7 +5,18 @@
 
 // Vanilla JavaScript Function
 
+//function addTwoNumbers(a, b) {
+    //return a + b;
+//}
+//let sum = addTwoNumbers(3, 7);
+//console.log(sum)
+
 // Arrow Function With Parameters
+const addTwoNumbers = (a, b) => {
+    return a + b;
+}
+let sum = addTwoNumbers(3, 7);
+console.log(sum)
 
 // Single Line Arrow Function With Parameters
 
